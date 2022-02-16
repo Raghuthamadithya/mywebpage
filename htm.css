@@ -1,0 +1,127 @@
+body{
+  font-family: 'Manrope',Helvetica;
+}
+h3{
+  font-weight: bold;
+  
+  
+}
+.navbar h1{ 
+  color:black;
+  margin: 0 auto;
+  padding-top: 15;
+  font-family: 'Manrope', sans-serif;
+  text-transform: uppercase;
+  font-size: xx-large;
+  width: 100%;
+  letter-spacing: 7;
+  text-align: end;
+  height: 40px; 
+background-color:lightslategray; 
+}
+.navbar{
+  background-color:lightblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100% ;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  letter-spacing: 5;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+  
+.navbar a:hover {
+  background:skyblue;
+  color: black;
+  font-size: 120%;
+}
+.formcontainer{
+  width: 100%;
+  
+}
+input[type=text],textarea{
+  width:70% ; 
+  padding:10Px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px;
+}
+input[type=submit]{
+  background-color:green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+  }
+p{
+  font-style: italic;
+}
+.content {
+  color:black;
+  padding: 100px 0 20px 20px;
+  height:700px;
+  background-color:white; 
+
+}
+img{
+  width: 300px;
+  height:200px;
+  display: inline-block;
+}
+
+#contact{
+  background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Mountain-Landscape-Simple-Nature-Background-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#home{
+  background-image: url(https://cdn.shopify.com/s/files/1/0070/7032/files/Fearless_Motivational_Quote_Desktop_Wallpaper_1.png?format=jpg&quality=90&v=1600450412);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#galleryheader h1{
+  margin: 10% 0 auto auto;
+  padding-top: 30;
+  font-family: 'Manrope', sans-serif;
+  font-size: x-large;
+  width: 100%;
+  letter-spacing: 3;
+  text-align: left;
+  height: 30px; 
+  float: center;
+  border: 1px solid white;
+  background-color: white;
+  align-items: left;
+  
+}
+.gallery-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-container > div {
+    flex-grow: 3;
+    border: 1px solid white;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+div > img{
+    width: 550px;
+}
+
+#aboutme>h2,p,h4,li{
+  color: black;
+}
